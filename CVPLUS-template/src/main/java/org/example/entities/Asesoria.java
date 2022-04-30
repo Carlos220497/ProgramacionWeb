@@ -29,7 +29,6 @@ public class Asesoria {
 	@Column(name = "Fecha_Fin",nullable = false)
 	private LocalDateTime Fecha_Fin;
 	
-	
 	@ManyToOne
 	@JoinColumn(name="IdPostulant",nullable=false)
 	private Postulants postulants;
@@ -38,7 +37,6 @@ public class Asesoria {
 	@JoinColumn(name="IdServicio",nullable=false)
 	private Servicio_Asesor servicio_asesor;
 
-	
 	
 	public Long getIdAsesoria() {
 		return IdAsesoria;
@@ -87,8 +85,5 @@ public class Asesoria {
 	public void setServicio_asesor(Servicio_Asesor servicio_asesor) {
 		this.servicio_asesor = servicio_asesor;
 	}
-
-	
-	
 	
 }
