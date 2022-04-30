@@ -79,8 +79,4 @@ public class Adviser {
 		Num_Cel_As = num_Cel_As;
 	}
 
-
-	
-	
-
 }
