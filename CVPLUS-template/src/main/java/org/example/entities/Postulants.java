@@ -82,6 +82,4 @@ public class Postulants implements Serializable {
 		Rubro = rubro;
 	}
 
-
-
 }
